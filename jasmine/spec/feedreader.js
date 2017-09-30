@@ -125,7 +125,7 @@ $(function() {
             loadFeed(1, done);
         });
 
-        //
+        // A new feed should be loaded.
         it('a new feed should be loaded by the loadFeed function', function(done) {
             // The next feed.
             nextUrl = document.getElementsByClassName('entry-link')[0].getAttribute('href');
