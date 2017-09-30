@@ -31,7 +31,7 @@ $(function() {
          * in the allFeeds object and ensures it has a URL defined
          * and that the URL is not empty.
          */
-        it('each feed has a url defined and is not empty', function() {;
+        it('each feed has a url defined and is not empty', function() {
             for (const feed in allFeeds) {
                 expect(allFeeds[feed].url).toBeDefined();
                 expect(allFeeds[feed].url).not.toBe('');
@@ -132,7 +132,7 @@ $(function() {
             // The two feeds should not match.
             expect(nextUrl).not.toBe(url);
             done();
-        })
+        });
     });
 
 }());
